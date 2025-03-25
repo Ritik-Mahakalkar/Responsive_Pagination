@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Test.css'
-const items = Array.from({ length: 100 }, (_, i) => `Item ${i + 1}`);
+const items = Array.from({ length: 100 }, (_, i) => `Product ${i + 1}`);
 const itemsPerPage = 10;
 const totalPages = Math.ceil(items.length / itemsPerPage);
 
