@@ -9,7 +9,7 @@ const Test = () => {
 
   const changePage = (page) => {
     if (page < 1 || page > totalPages) {
-      alert("Error: Invalid page!");
+      alert(" Invalid page!");
       return;
     }
     setCurrentPage(page);
